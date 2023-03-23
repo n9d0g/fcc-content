@@ -48,5 +48,35 @@ export default {
       type: 'string',
       title: 'Unavailable',
     },
+    {
+      name: 'series',
+      type: 'string',
+      title: 'Series',
+    },
+    {
+      name: 'topic',
+      type: 'string',
+      title: 'Sermon Topic',
+    },
+    {
+      name: 'speaker',
+      type: 'string',
+      title: 'Speaker',
+    },
+    {
+      name: 'scripture',
+      type: 'string',
+      title: 'Scipture',
+    },
+    {
+      name: 'objective',
+      type: 'string',
+      title: 'Objective',
+    },
+    {
+      name: 'summary',
+      type: 'string',
+      title: 'Summary',
+    },
   ],
 }
