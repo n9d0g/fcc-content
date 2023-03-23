@@ -66,7 +66,7 @@ export default {
     {
       name: 'scripture',
       type: 'string',
-      title: 'Scipture',
+      title: 'Scripture',
     },
     {
       name: 'objective',
