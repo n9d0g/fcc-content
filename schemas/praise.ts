@@ -34,6 +34,11 @@ export default {
       title: 'Drums',
     },
     {
+      name: 'electric',
+      type: 'string',
+      title: 'Electric',
+    },
+    {
       name: 'backup',
       type: 'string',
       title: 'Backup',
