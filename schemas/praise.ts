@@ -54,6 +54,11 @@ export default {
       title: 'Unavailable',
     },
     {
+      name: 'pdf',
+      type: 'file',
+      title: 'Chords',
+    },
+    {
       name: 'series',
       type: 'string',
       title: 'Series',
