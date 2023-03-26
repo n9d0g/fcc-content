@@ -24,6 +24,11 @@ export default {
       title: 'Scripture',
     },
     {
+      name: 'thumb',
+      type: 'url',
+      title: 'Thumb Image',
+    },
+    {
       name: 'youtube',
       type: 'url',
       title: 'YouTube Link',
