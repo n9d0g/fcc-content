@@ -13,5 +13,39 @@ export default {
       type: 'file',
       title: 'Book PDF',
     },
+    {
+      name: 'schedule',
+      type: 'array',
+      title: 'Schedule',
+      of: [
+        {
+          name: 'week',
+          type: 'document',
+          title: 'Week',
+          fields: [
+            {
+              name: 'leader',
+              type: 'string',
+              title: 'Leader',
+            },
+            {
+              name: 'date',
+              type: 'date',
+              title: 'Date',
+            },
+            {
+              name: 'week',
+              type: 'number',
+              title: 'Week',
+            },
+            {
+              name: 'chapter',
+              type: 'number',
+              title: 'Chapter',
+            },
+          ],
+        },
+      ],
+    },
   ],
 }
