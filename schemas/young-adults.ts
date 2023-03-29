@@ -40,8 +40,8 @@ export default {
             },
             {
               name: 'chapter',
-              type: 'number',
-              title: 'Chapter',
+              type: 'string',
+              title: 'Chapter Name',
             },
           ],
         },
