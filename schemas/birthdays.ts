@@ -18,5 +18,10 @@ export default {
       title: 'Pastor',
       type: 'boolean',
     },
+    {
+      name: 'wedding-anniversary',
+      title: 'Wedding Anniversary',
+      type: 'boolean',
+    },
   ],
 }
