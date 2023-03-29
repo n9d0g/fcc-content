@@ -19,7 +19,7 @@ export default {
       type: 'boolean',
     },
     {
-      name: 'wedding-anniversary',
+      name: 'wa',
       title: 'Wedding Anniversary',
       type: 'boolean',
     },
