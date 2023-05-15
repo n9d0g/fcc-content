@@ -17,11 +17,11 @@
   ],
   "dependencies": {
     "@sanity/scheduled-publishing": "^1.1.1",
-    "@sanity/vision": "^3.10.3",
+    "@sanity/vision": "^3.11.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-is": "^18.2.0",
-    "sanity": "^3.10.3",
+    "sanity": "^3.11.0",
     "styled-components": "^5.3.10"
   },
   "devDependencies": {
