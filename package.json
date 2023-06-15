@@ -11,23 +11,24 @@
     "build": "sanity build",
     "deploy": "sanity deploy",
     "deploy-graphql": "sanity graphql deploy",
-    "fresh": "rm -rf node_modules dist && pnpm i && pnpm build"
+    "fresh": "rm -rf node_modules dist && pnpm i && pnpm build",
+    "fresh:start": "pnpm fresh && pnpm dev"
   },
   "keywords": [
     "sanity"
   ],
   "dependencies": {
     "@sanity/scheduled-publishing": "^1.1.1",
-    "@sanity/vision": "^3.11.5",
+    "@sanity/vision": "^3.12.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-is": "^18.2.0",
-    "sanity": "^3.11.5",
+    "sanity": "^3.12.1",
     "styled-components": "^5.3.11"
   },
   "devDependencies": {
     "@sanity/eslint-config-studio": "^2.0.1",
-    "@types/react": "^18.2.8",
+    "@types/react": "^18.2.12",
     "@types/styled-components": "^5.1.26",
     "eslint": "^8.42.0",
     "prettier": "^2.8.8",

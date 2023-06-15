@@ -11,7 +11,7 @@ export default {
     {
       name: 'weeklyInvite',
       title: 'Weekly Invite',
-      type: 'url',
+      type: 'file',
     },
   ],
 }
