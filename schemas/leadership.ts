@@ -19,6 +19,11 @@ export default {
       type: 'file',
     },
     {
+      name: 'sort',
+      title: 'Sort Number',
+      type: 'number',
+    },
+    {
       name: 'subministries',
       type: 'array',
       title: 'Sub-Ministries',
