@@ -18,5 +18,29 @@ export default {
       title: 'Image',
       type: 'file',
     },
+    {
+      name: 'subministries',
+      type: 'array',
+      title: 'Sub-Ministries',
+      of: [
+        {
+          name: 'subministry',
+          type: 'document',
+          title: 'Sub-Ministry',
+          fields: [
+            {
+              name: 'name',
+              type: 'string',
+              title: 'Name',
+            },
+            {
+              name: 'ministry',
+              type: 'string',
+              title: 'Ministry',
+            },
+          ],
+        },
+      ],
+    },
   ],
 }
