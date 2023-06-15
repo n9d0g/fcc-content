@@ -4,6 +4,7 @@ import youngAdults from './young-adults'
 import birthdays from './birthdays'
 import pages from './pages'
 import prayer from './prayer'
+import leadership from './leadership'
 
 export const schemaTypes = [
   pages,
@@ -12,4 +13,5 @@ export const schemaTypes = [
   youngAdults,
   birthdays,
   prayer,
+  leadership,
 ]
