@@ -73,10 +73,5 @@ export default {
       type: 'string',
       title: 'Set Up / Ushers',
     },
-    {
-      name: 'sermonTopics',
-      type: 'string',
-      title: 'Sermon Topics',
-    },
   ],
 }
